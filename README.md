@@ -1,3 +1,26 @@
+## rosidl_dynamic_typesupport (iron) - 0.1.2-1
+
+The packages in the `rosidl_dynamic_typesupport` repository were released into the `iron` distro by running `/usr/bin/bloom-release --rosdistro iron rosidl_dynamic_typesupport` on `Fri, 08 Sep 2023 06:30:32 -0000`
+
+The `rosidl_dynamic_typesupport` package was released.
+
+Version of package(s) in repository `rosidl_dynamic_typesupport`:
+
+- upstream repository: https://github.com/ros2/rosidl_dynamic_typesupport.git
+- release repository: https://github.com/ros2-gbp/rosidl_dynamic_typesupport-release.git
+- rosdistro version: `0.0.3-2`
+- old version: `0.0.3-2`
+- new version: `0.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rosidl_dynamic_typesupport (rolling) - 0.1.2-1
 
 The packages in the `rosidl_dynamic_typesupport` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling rosidl_dynamic_typesupport` on `Thu, 07 Sep 2023 14:38:57 -0000`
