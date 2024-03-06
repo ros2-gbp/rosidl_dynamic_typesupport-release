@@ -1,0 +1,12 @@
+Source: ros-rolling-rosidl-dynamic-typesupport
+Section: misc
+Priority: optional
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake-ros, librcutils-dev, librosidl-runtime-c-cpp-dev, python3-rcutils, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rosidl-dynamic-typesupport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, librcutils-dev, librosidl-runtime-c-cpp-dev, python3-rcutils, ros-rolling-ros-workspace
+Description: Unified serialization support interface for dynamic typesupport in C.
