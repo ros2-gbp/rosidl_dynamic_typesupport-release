@@ -1,0 +1,59 @@
+ros-rolling-rosidl-dynamic-typesupport (0.3.1-1bookworm) bookworm; urgency=high
+
+  * Switch to ament_cmake_ros_core package (#15 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/15>)
+  * Bump minimum CMake version to 3.20 (#14 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/14>)
+  * Contributors: Michael Carroll, mosfet80
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 18 Apr 2025 05:00:00 -0000
+
+ros-rolling-rosidl-dynamic-typesupport (0.3.0-1bookworm) bookworm; urgency=high
+
+  * Drop support for long double/float128. (#12 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/12>)
+  * Contributors: Chris Lalancette
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 20 Nov 2024 06:00:00 -0000
+
+ros-rolling-rosidl-dynamic-typesupport (0.2.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 26 Apr 2024 05:00:00 -0000
+
+ros-rolling-rosidl-dynamic-typesupport (0.1.2-1bookworm) bookworm; urgency=high
+
+  * uchar: fix conditional include/typedef (#10 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/10>)
+  * uchar: use __has_include(..) on separate line (#8 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/8>)
+  * Refactor the handling of nested types. (#7 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/7>)
+  * Contributors: Chris Lalancette, G.A. vd. Hoorn
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 07 Sep 2023 05:00:00 -0000
+
+ros-rolling-rosidl-dynamic-typesupport (0.1.1-1bookworm) bookworm; urgency=high
+
+  * Add C++ version check to char16 definition (#3 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/3>)
+  * Contributors: Antonio Cuadros
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 11 Jul 2023 05:00:00 -0000
+
+ros-rolling-rosidl-dynamic-typesupport (0.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 28 Apr 2023 05:00:00 -0000
+
+ros-rolling-rosidl-dynamic-typesupport (0.0.3-1bookworm) bookworm; urgency=high
+
+  * Fix up the exports for rosidl_dynamic_typesupport. (#5 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/5>)
+  * Contributors: Chris Lalancette
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 12 Apr 2023 05:00:00 -0000
+
+ros-rolling-rosidl-dynamic-typesupport (0.0.2-1bookworm) bookworm; urgency=high
+
+  * Refactor dynamic message type support impl to use allocators (#2 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/2>)
+  * Runtime Interface Reflection: rosidl_dynamic_typesupport (#1 <https://github.com/ros2/rosidl_dynamic_typesupport/issues/1>)
+  * Contributors: methylDragon, William Woodall
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 11 Apr 2023 05:00:00 -0000
+
+
