@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.20)
 project(rosidl_dynamic_typesupport)
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
@@ -22,7 +22,8 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 
 
 # DEPS =============================================================================================
-find_package(ament_cmake_ros REQUIRED)
+find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_ros_core REQUIRED)
 find_package(rcutils REQUIRED)
 find_package(rosidl_runtime_c REQUIRED)
 
